@@ -21,3 +21,7 @@ live_loop :strangerThings do
     sample :guit_em9
   end
 end
+live_loop :drums do
+  sample :bass_thick_c
+  sleep 0.5
+end
