@@ -1,9 +1,6 @@
-use_bpm 160
-
+use_bpm 140
+use_synth :saw
 live_loop :strangerThings do
-  with_fx :flanger do
-    sample :guit_em9
-  end
   play :c2
   sleep 0.5
   play :e2
@@ -20,4 +17,7 @@ live_loop :strangerThings do
   sleep 0.5
   play :e2
   sleep 0.5
+  with_fx :flanger do
+    sample :guit_em9
+  end
 end
